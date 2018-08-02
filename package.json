@@ -1,0 +1,26 @@
+{
+  "name": "test01",
+  "version": "0.1.0",
+  "description": "nuestro primero test",
+  "main": "dist/lib/test01.js",
+  "scripts": {
+    "build": "babel lib/test01.js -d dist",
+	"test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandrovt/test01.git"
+  },
+  "keywords": [
+    "test",
+    "alejo"
+  ],
+  "author": "Alejandro Villada T. <alejandrovt@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
